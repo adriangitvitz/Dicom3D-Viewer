@@ -12,7 +12,7 @@ dicom_loader = dicomload.LoadDicoms(path)
 # Get Planes based on the dcm images
 planes = dicom_loader.load()
 
-# Calculate pizel data
+# Calculate pixel data
 dicom_loader.calculate_hound_pixels()
 
 # Get Surfaces and resize data
