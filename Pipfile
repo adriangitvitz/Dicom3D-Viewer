@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pydicom = "*"
+Pillow = "*"
+matplotlib = "*"
+pyqt5 = "*"
+plotly = "*"
+scipy = "*"
+sympy = "*"
+nose = "*"
+scikit-image = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
